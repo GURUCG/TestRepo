@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+  <test name="test-Firefox">
+  <parameter name="brosweName" value="firefox"/>
+    <classes>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownEquals"/>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownEndwith"/>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownNotEquals"/>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownStartwith"/>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontains"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="test-Chrome">
+   <parameter name="brosweName" value="chrome"/>
+    <classes>
+       <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownEquals"/>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownEndwith"/>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownNotEquals"/>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownStartwith"/>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontains"/>
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

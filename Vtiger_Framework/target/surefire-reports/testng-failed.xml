@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownNotEqualstest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="createOpportunityWithContact2"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownNotEqualstest -->
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownEndwithtest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="createOpportunityWithContact4"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownEndwithtest -->
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="createOpportunityWithContact5"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest -->
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownStartwithtest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="createOpportunityWithContact3"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownStartwithtest -->
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownEqualstest">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="createOpportunityWithContact1"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdownEqualstest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

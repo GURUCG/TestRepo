@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80244" started-at="2021-03-12T05:23:11Z" finished-at="2021-03-12T05:24:31Z">
+    <groups>
+      <group name="smokeTest">
+        <method signature="AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest.createOpportunityWithContact5()[pri:0, instance:com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest@3a5ed7a6]" name="createOpportunityWithContact5" class="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="80244" started-at="2021-03-12T05:23:11Z" finished-at="2021-03-12T05:24:31Z">
+      <class name="com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest@3a5ed7a6]" name="configBS" is-config="true" duration-ms="648" started-at="2021-03-11T21:23:10Z" finished-at="2021-03-11T21:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest@3a5ed7a6]" name="configBC" is-config="true" duration-ms="11603" started-at="2021-03-11T21:23:11Z" finished-at="2021-03-11T21:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest@3a5ed7a6]" name="configBM" is-config="true" duration-ms="24313" started-at="2021-03-11T21:23:23Z" finished-at="2021-03-11T21:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createOpportunityWithContact5()[pri:0, instance:com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest@3a5ed7a6]" name="createOpportunityWithContact5" duration-ms="40214" started-at="2021-03-11T21:23:47Z" finished-at="2021-03-11T21:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOpportunityWithContact5 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest@3a5ed7a6]" name="configAM" is-config="true" duration-ms="2412" started-at="2021-03-11T21:24:27Z" finished-at="2021-03-11T21:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest@3a5ed7a6]" name="configAC" is-config="true" duration-ms="1658" started-at="2021-03-11T21:24:29Z" finished-at="2021-03-11T21:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest@3a5ed7a6]" name="configAS" is-config="true" duration-ms="6" started-at="2021-03-11T21:24:31Z" finished-at="2021-03-11T21:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.Cast.Vtiger.AdvanceSearchAndSearchWithDropdownOpportunityNameDropdowncontainstest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
